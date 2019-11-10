@@ -1,0 +1,131 @@
+﻿
+/*GENERAL CSS STYLES*/
+
+.cwidth {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.website-title {
+    display: inline;
+    margin-left: 20px;
+}
+
+header, footer {
+    background: #E8C1A9;
+}
+
+header {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Supermercado One', cursive;
+}
+
+footer {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*NAV STYLES*/
+
+nav {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.5em;
+    float: right;
+    display: inline-block;
+}
+
+nav p {
+    float: left;
+    padding: 0px 20px;
+    display: none;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    padding-right: 15px;
+    margin-right: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #FFD4C7;
+}
+
+
+/*CSS FOR TABLES*/
+
+.result_table {
+    width: 100%;
+}
+
+.listitem {
+    background: #FFDEBA;
+    padding: 12px 5%;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #E8AFA9;
+    }
+
+    .listitem:hover {
+        background: #FFD4C7;
+    }
+
+/*
+    sandbox.bittsdevelopment.com/colcalc
+    columns : 4
+    gutter/column ratio : 0.2
+*/
+
+.col4, .col4last {
+    float: left;
+    width: 21.73%;
+    margin-right: 4.34%;
+}
+
+.col4last {
+    margin-right: 0%;
+}

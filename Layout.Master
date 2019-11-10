@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="School_CRUD_System.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>School CRUD System</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Supermercado+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="website-title">
+            Welcome to Humber Girls College
+        </div>
+
+        <nav>
+            <p>Navigation Menu</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tables</a>
+                    <ul>
+                        <li><a href="#students">Students</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#teachers">Teachers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div class="cwidth">
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <footer>
+        <div class="cwidth">
+            Copyright 2019 | Girl Powered Digital Agency
+        </div>
+    </footer>
+</body>
+</html>
