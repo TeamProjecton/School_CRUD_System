@@ -11,7 +11,7 @@ namespace School_CRUD_System
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int EmployNum = Int32.Parse("EmployeeNumber_id");
+            //int EmployNum = 
             string FnameSet = TeacherFName_Set.Text;
             string fnameavalue = TeacherLName_value.Text;
 

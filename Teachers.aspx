@@ -5,12 +5,12 @@
         <a href="https://localhost:44390/update.aspx" >Update</a>
     </div>
     <div id="Teachers_table" class="table" runat="server">
-        <div class="List_Item">
+        <div class="listitem">
             <div class="col4">First Name</div>
             <div class="col4">Last Name</div>
             <div class="col4">Employee Number</div>
             <div class="col4last">Hire Date</div>
-            <div class="salary">Salary</div>
+            <div class="col4last">Salary</div>
         </div>
     </div>
 </asp:Content>

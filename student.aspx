@@ -2,7 +2,7 @@
 <asp:Content ID="Student_List" ContentPlaceHolderID="body" runat="server">
     <h1>Students</h1>
     <div id="student_table" class="table" runat="server">
-        <div class="list_item">
+        <div class="listitem">
             <div class="col4">First Name</div>
             <div class="col4">Last Name</div>
             <div class="col4">Student Number</div>

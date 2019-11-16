@@ -2,7 +2,7 @@
 <asp:Content ID="Classes_List" ContentPlaceHolderID="body" runat="server">
     <h1>Classes</h1>
     <div id="Classes_table" class="table" runat="server">
-        <div class="List_Item">
+        <div class="listitem">
             <div class="col4">Code</div>
             <div class="col4">Teacher Id</div>
             <div class="col4">Start Date</div>

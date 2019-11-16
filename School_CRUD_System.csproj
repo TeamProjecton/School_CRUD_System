@@ -85,6 +85,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="images\classroom.jpeg" />
+    <Content Include="images\enrollment.jpeg" />
+    <Content Include="images\students.jpg" />
+    <Content Include="images\teachers.jpeg" />
     <Content Include="student.aspx" />
     <Content Include="studentsxclasses.aspx" />
     <Content Include="style.css" />
@@ -99,6 +104,13 @@
     </Compile>
     <Compile Include="Classes.aspx.designer.cs">
       <DependentUpon>Classes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Layout.Master.cs">
@@ -148,6 +160,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
