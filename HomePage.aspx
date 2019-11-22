@@ -19,7 +19,7 @@
             <div class="flex-container">
              <div class="database_preview">
                 <h2>Students</h2>
-                <a href="#">
+                <a href="https://localhost:44390/student.aspx">
                 <img src="images/students.jpg" alt="students's laptops on a table"/>
                 </a>    
             </div>

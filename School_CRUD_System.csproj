@@ -85,11 +85,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.aspx" />
+    <Content Include="Create.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="images\classroom.jpeg" />
     <Content Include="images\enrollment.jpeg" />
     <Content Include="images\students.jpg" />
     <Content Include="images\teachers.jpeg" />
+    <Content Include="Individual_Student.aspx" />
+    <Content Include="Individual_Teachers.aspx" />
     <Content Include="student.aspx" />
     <Content Include="studentsxclasses.aspx" />
     <Content Include="style.css" />
@@ -105,12 +108,33 @@
     <Compile Include="Classes.aspx.designer.cs">
       <DependentUpon>Classes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Create.aspx.designer.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Individual_Student.aspx.cs">
+      <DependentUpon>Individual_Student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Individual_Student.aspx.designer.cs">
+      <DependentUpon>Individual_Student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Individual_Teachers.aspx.cs">
+      <DependentUpon>Individual_Teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Individual_Teachers.aspx.designer.cs">
+      <DependentUpon>Individual_Teachers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Layout.Master.cs">

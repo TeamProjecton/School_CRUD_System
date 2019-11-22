@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace School_CRUD_System
 {
-    public partial class update : System.Web.UI.Page
+    public partial class Create : System.Web.UI.Page
     {
-        public void update_click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-             
 
         }
-      
-
-
     }
 }

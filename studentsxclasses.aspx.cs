@@ -18,7 +18,7 @@ namespace School_CRUD_System
 
             foreach (Dictionary<string, string> row in rs)
             {
-                S_C_table.InnerHtml += "<div class=\"list_item\">";
+                S_C_table.InnerHtml += "<div class=\"listitem\">";
 
                 string studentxclassid = row["STUDENTXCLASSID"];
                 S_C_table.InnerHtml += "<div class=\"col4\">" + studentxclassid + "</div>";

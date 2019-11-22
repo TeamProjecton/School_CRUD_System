@@ -20,24 +20,24 @@ namespace School_CRUD_System
             //now make a list for our coloumns.
             foreach (Dictionary<string,string> row in rs)
             {
-                Classes_table.InnerHtml += "<div class=\"List_Item\">";
+                Classes_table.InnerHtml += "<div class=\"listitem\">";
                 //this is for our list and here its define div and its class.
                 string classcode = row["CLASSCODE"];
                 //Its define row into string.
-                Classes_table.InnerHtml += "<div class=\"col4\">" + classcode + "</div>";
+                Classes_table.InnerHtml += "<div class=\"col5\">" + classcode + "</div>";
                 //this upper line of code define first coloumn.
                 //in that div we put string and then close its div tag at after that string.
                 string teacherid = row["TEACHERID"];
-                Classes_table.InnerHtml += "<div class=\"col4\">" + teacherid + "</div>";
+                Classes_table.InnerHtml += "<div class=\"col5\">" + teacherid + "</div>";
 
                 string startdate = row["STARTDATE"];
-                Classes_table.InnerHtml += "<div class=\"col4\">" + startdate + "</div>";
+                Classes_table.InnerHtml += "<div class=\"col5\">" + startdate + "</div>";
 
                 string finishdate = row["FINISHDATE"];
-                Classes_table.InnerHtml += "<div class=\"col4lst\">" + finishdate + "</div>";
+                Classes_table.InnerHtml += "<div class=\"col5\">" + finishdate + "</div>";
 
                 string classname = row["CLASSNAME"];
-                Classes_table.InnerHtml += "<div class=\"classname\">" + classname + "</div>";
+                Classes_table.InnerHtml += "<div class=\"col5last\">" + classname + "</div>";
 
                 Classes_table.InnerHtml += "</div>";
                 //this is close div tag for class = list item.

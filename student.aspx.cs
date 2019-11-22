@@ -18,10 +18,11 @@ namespace School_CRUD_System
 
             foreach (Dictionary<string,string> row in rs)
             {
-                student_table.InnerHtml += "<div class=\"list_item\">";
+                student_table.InnerHtml += "<div class=\"listitem\">";
+                string studentid = row["STUDENTID"];
 
                 string studentfirstname = row["STUDENTFNAME"];
-                student_table.InnerHtml += "<div class=\"col4\">" + studentfirstname + "</div>";
+                student_table.InnerHtml += "<div class=\"col4\"><a href=\"Individual_Student.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></div>";
 
                 string studentlastname = row["STUDENTLNAME"];
                 student_table.InnerHtml += "<div class=\"col4\">" + studentlastname + "</div>";

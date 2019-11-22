@@ -25,11 +25,13 @@ header {
 }
 
 footer {
-    margin-top: 50em;
+    margin-top:50px;
     padding-bottom: 50px;
     padding-top: 50px;
     font-weight: bold;
     display:block;
+    clear:both;
+
 }
 
 body {
@@ -135,7 +137,12 @@ img {
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
+    
 }
+.listitem :first-child{
+    margin-left:0;
+}
+
 
     .listitem:after {
         clear: both;
@@ -158,9 +165,29 @@ img {
 .col4, .col4last {
     float: left;
     width: 21.73%;
-    margin-right: 3%;
+    margin-right:4.34%;
 }
 
 .col4last {
     margin-right: 0%;
+}
+.CRUD {
+    display:inline-block;
+}
+.CRUD a {
+        text-decoration: none;
+        color: red;
+        margin-right: 10em;
+}
+
+.col5 {
+    width: 17.48%;
+    float: left;
+    margin-right: 3.14%;
+}
+
+.col5last {
+    width: 17.48%;
+    float: left;
+    margin-right: 0;
 }

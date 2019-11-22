@@ -3,11 +3,11 @@
     <h1>Classes</h1>
     <div id="Classes_table" class="table" runat="server">
         <div class="listitem">
-            <div class="col4">Code</div>
-            <div class="col4">Teacher Id</div>
-            <div class="col4">Start Date</div>
-            <div class="col4last">Finish Date</div>
-            <div class="classname">Class Name</div>
+            <div class="col5">Code</div>
+            <div class="col5">Teacher Id</div>
+            <div class="col5">Start Date</div>
+            <div class="col5">Finish Date</div>
+            <div class="col5last">Class Name</div>
         </div>
     </div>
 </asp:Content>
