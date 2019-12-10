@@ -183,6 +183,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="wireframes\CRUD School DB Assignment - Wireframes.pdf" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
